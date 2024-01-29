@@ -8,20 +8,17 @@ body,html{
     padding: 0;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    background-color: red;
 }
 .logo{
     width: 100px;
     height: auto;
 }
-header{
-    background-color: white;
-}
-header nav  ul li{
+nav  ul li{
     padding-left: 20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
+
 #menu-bar{
     border: none;
     box-shadow: none;
@@ -63,10 +60,9 @@ header nav  ul li{
 }
 .me-image{
     height: 400px;
-    width: 400x;
+    
     border-radius: 50%;
     margin-top: 6em;
-    margin-left: 5em;
     box-shadow: #1f77c4 0px 5px 15px;
   
 }
@@ -336,7 +332,6 @@ header nav  ul li{
     width: 9em;
     height: 3em;
     font-size: 1em;
-    margin-left: 20px;
 }
 .contact-btn-two:focus,.contact-btn-two:active{
     border: none;
